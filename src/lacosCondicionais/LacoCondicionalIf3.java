@@ -30,8 +30,7 @@ public class LacoCondicionalIf3 {
 		}
 		else {
 			System.out.println(nome+" não está apto para doar sangue");
-		}
-			
+		}		
 		
 	}
 
