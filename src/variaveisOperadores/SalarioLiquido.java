@@ -1,4 +1,4 @@
-package variaveiseoperadores;
+package variaveisOperadores;
 
 import java.util.Scanner;
 

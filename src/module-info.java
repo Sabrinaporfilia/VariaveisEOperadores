@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Sabrina
- *
- */
-module VariaveisEOperadores {
-}
