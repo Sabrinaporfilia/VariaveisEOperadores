@@ -7,7 +7,7 @@ public class LacoCondicionalIf4 {
 		Scanner leia = new Scanner(System.in);
 		String caracteristica1, caracteristica2, caracteristica3, resultadoFinal;
 
-		System.out.println("Digite as características do animal (vertebrado/invertebrado");
+		System.out.println("Digite as características do animal (vertebrado/invertebrado)");
 		caracteristica1 = leia.next();
 		System.out.println("Digite as características ave/mamífero/inseto/anelídeo");
 		caracteristica2 = leia.next();
@@ -25,8 +25,8 @@ public class LacoCondicionalIf4 {
 				if (caracteristica3.equalsIgnoreCase("onívoro")) {
 					System.out.println("pessoa");
 				} else {
-					if (caracteristica3.equalsIgnoreCase("herbívoro")){
-					System.out.println("vaca");
+					if (caracteristica3.equalsIgnoreCase("herbívoro")) {
+						System.out.println("vaca");
 					}
 				}
 			}
@@ -48,9 +48,11 @@ public class LacoCondicionalIf4 {
 							System.out.println("minhoca");
 						}
 					}
+				} else {
+					System.out.println("Digite uma caracteristicas válidas!");
 				}
 			}
-		}
 
+		}
 	}
 }
