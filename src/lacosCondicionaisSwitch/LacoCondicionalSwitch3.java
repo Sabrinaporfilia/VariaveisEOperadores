@@ -21,7 +21,6 @@ public class LacoCondicionalSwitch3 {
 		System.out.println("4 Divisão");
 		operacao = leia.nextInt();
 		
-
 		switch(operacao) {
 		case 1:
 			resultado = num1 + num2;
