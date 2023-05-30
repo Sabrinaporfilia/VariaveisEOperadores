@@ -21,7 +21,6 @@ public class Matrizes1 {
 				System.out.print(matriz[indiceLinha][indiceColuna - indiceLinha] + " ");
 				soma2 = soma2 + matriz[indiceLinha][indiceColuna - indiceLinha];
 			}
-
 		}
 		System.out.println("\nSoma dos Elementos da Diagonal Principal:\n" + soma1);
 		System.out.println("Soma dos Elementos da Diagonal Secundária:\n" + soma2);
