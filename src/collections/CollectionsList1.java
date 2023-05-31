@@ -17,7 +17,10 @@ public class CollectionsList1 {
 			cor = Ler.next();
 			cores.add(cor);
 		}
-		System.out.println("\nListar todas as cores :\r" + cores);
+		System.out.println("\nListar todas as cores :\r");
+		for (String cor1 : cores) {
+			System.out.println(cor1);
+		}
 
 		System.out.println("\nOrdenar as cores :");
 		Collections.sort(cores);
