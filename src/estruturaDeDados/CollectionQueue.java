@@ -30,8 +30,8 @@ public class CollectionQueue {
 			case 1:
 				System.out.println("Digite o nome do cliente: ");
 				cliente = ler.next();
-				fila.add(cliente);
-				System.out.println("Cliente Adicionado!!");
+				
+				System.out.println("\nCliente Adicionado!!");
 				break;
 
 			case 2:

@@ -32,9 +32,9 @@ public class CollectionStack {
 				ler.nextLine();
 				livro = ler.nextLine();
 				pilha.add(livro);
-				System.out.println("Pilha");
+				System.out.println("Pilha: ");
 				System.out.println(pilha);
-				System.out.println("Livro Adicionado!!");
+				System.out.println("\nLivro Adicionado!!");
 				
 				break;
 
