@@ -19,7 +19,6 @@ public class CollectionsList2 {
 
 		System.out.println("Digite o número que você deseja encontrar: ");
 		num3 = Ler.nextInt();
-		num.add(num3);
 
 		if (num.contains(num3)) {
 			System.out.println("\nA posição do " + num3 + " é :" + num.indexOf(num3));
