@@ -29,7 +29,7 @@ public class CollectionStack {
 
 			case 1:
 				System.out.println("Digite o nome do Livro: ");
-				ler.nextLine();
+				ler.skip("\\R?");
 				livro = ler.nextLine();
 				pilha.add(livro);
 				System.out.println("Pilha: ");
