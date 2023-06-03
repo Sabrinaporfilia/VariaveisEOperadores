@@ -1,6 +1,7 @@
-package cliente;
+package clientePOO;
 
 import util.Cores;
+
 public class Cliente {
 
 	private String nome;
@@ -8,9 +9,8 @@ public class Cliente {
 	private String genero;
 	private float saldo;
 	private int cep;
-	
 
-	public Cliente(String nome, int idade,String genero, float saldo, int cep) {
+	public Cliente(String nome, int idade, String genero, float saldo, int cep) {
 		this.nome = nome;
 		this.idade = idade;
 		this.genero = genero;
@@ -59,14 +59,13 @@ public class Cliente {
 	}
 
 	public void visualizar() {
-		
-		System.out.println(Cores.TEXT_YELLOW_BRIGTH
-				          +"***************************");
-		System.out.println("Nome Cliente: " + nome      );
-		System.out.println("Idade: " + idade		    );
-		System.out.println("Gênero: " + genero          );
-		System.out.println("Saldo: " + saldo            );
-		System.out.println("Cep: " + cep                );
+
+		System.out.println(Cores.TEXT_YELLOW_BRIGTH + "***************************");
+		System.out.println("Nome Cliente: " + nome);
+		System.out.println("Idade: " + idade);
+		System.out.println("Gênero: " + genero);
+		System.out.println("Saldo: " + saldo);
+		System.out.println("Cep: " + cep);
 		System.out.println("***************************");
 		System.out.println("                        " + Cores.TEXT_RESET);
 

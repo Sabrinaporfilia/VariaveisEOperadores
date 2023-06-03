@@ -1,4 +1,4 @@
-package produto;
+package produtoPOO;
 
 public class Produto {
 	
@@ -10,7 +10,11 @@ public class Produto {
 	
 	
 	public Produto(String titulo, String genero, String plataforma, int faixaEtaria, int anoLancamento) {
-		
+		this.titulo = titulo;
+		this.genero = genero;
+		this.plataforma = plataforma;
+		this.faixaEtaria = faixaEtaria;
+		this.anoLancamento = anoLancamento;
 	}
 	
 	public String getTitulo() {
@@ -44,5 +48,12 @@ public class Produto {
 		this.anoLancamento = anoLancamento;
 	}
 
-	public void visualizar();
+	public void visualizar() {
+		System.out.println("Nome do Produto: "+ titulo);
+		System.out.println("Gênero: " + genero);
+		System.out.println("Plataforma: "+ plataforma);
+		System.out.println("Faixa Etaria: " + faixaEtaria);
+		System.out.println("Ano de lançamento: "+ anoLancamento);
+		System.out.println("**********************************");
+	}
 }

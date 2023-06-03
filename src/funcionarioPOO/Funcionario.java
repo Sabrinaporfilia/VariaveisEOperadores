@@ -1,13 +1,13 @@
-package funcionario;
+package funcionarioPOO;
 
 public class Funcionario {
-	
+
 	private String nome;
 	private int idade;
 	private String genero;
 	private float salario;
 	private String setor;
-	
+
 	public Funcionario(String nome, int idade, String genero, float salario, String setor) {
 		this.nome = nome;
 		this.idade = idade;
@@ -55,10 +55,10 @@ public class Funcionario {
 	public void setSetor(String setor) {
 		this.setor = setor;
 	}
-	
+
 	public void visualizar() {
 		System.out.println("Nome Funcionario(a): " + nome);
-		System.out.println("Idade: "+ idade);
+		System.out.println("Idade: " + idade);
 		System.out.println("Gênero: " + genero);
 		System.out.println("Salario: " + salario);
 		System.out.println("Setor:" + setor);

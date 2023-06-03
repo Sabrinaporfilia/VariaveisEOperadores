@@ -1,6 +1,6 @@
-package funcionario;
+package funcionarioPOO;
 
-import funcionario.Funcionario;
+
 public class TestaFuncionario {
 
 	public static void main(String[] args) {
